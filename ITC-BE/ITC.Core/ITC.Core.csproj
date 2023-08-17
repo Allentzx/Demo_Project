@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.59.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
+    <PackageReference Include="Microsoft.OpenApi" Version="1.4.5" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.4.0" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.19.0" />
+    <PackageReference Include="ClosedXML" Version="0.97.0" />
+    <PackageReference Include="ClosedXML_Excel" Version="1.0.0" />
+    <PackageReference Include="MailKit" Version="3.4.3" />
+    <PackageReference Include="MimeKit" Version="3.4.3" />
+    <PackageReference Include="EPPlus" Version="6.1.3" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.15.0" />
+    <PackageReference Include="FirebaseAdmin" Version="2.3.0" />
+    <PackageReference Include="Quartz" Version="3.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITC.Data\ITC.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Model\Commom\" />
+    <None Remove="DocumentFormat.OpenXml" />
+    <None Remove="ClosedXML" />
+    <None Remove="ClosedXML_Excel" />
+    <None Remove="Utilities\Email\" />
+    <None Remove="MailKit" />
+    <None Remove="MimeKit" />
+    <None Remove="Utilities\FileUti\" />
+    <None Remove="Utilities\Quartz\" />
+    <None Remove="Utilities\Quartz\Job\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\Commom\" />
+    <Folder Include="Utilities\Email\" />
+    <Folder Include="Utilities\FileUti\" />
+    <Folder Include="Utilities\Quartz\" />
+    <Folder Include="Utilities\Quartz\Job\" />
+  </ItemGroup>
+</Project>

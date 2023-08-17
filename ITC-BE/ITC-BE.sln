@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITC-BE", "ITC-BE\ITC-BE.csproj", "{FA89B4F2-E59A-4FEB-8E15-A89CB3D2FD57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITC.Data", "ITC.Data\ITC.Data.csproj", "{4032116C-8478-4654-8DF5-858ED70493DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITC.Core", "ITC.Core\ITC.Core.csproj", "{8F239587-2916-42C0-AFDC-015B0486BB73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA89B4F2-E59A-4FEB-8E15-A89CB3D2FD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA89B4F2-E59A-4FEB-8E15-A89CB3D2FD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA89B4F2-E59A-4FEB-8E15-A89CB3D2FD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA89B4F2-E59A-4FEB-8E15-A89CB3D2FD57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4032116C-8478-4654-8DF5-858ED70493DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4032116C-8478-4654-8DF5-858ED70493DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4032116C-8478-4654-8DF5-858ED70493DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4032116C-8478-4654-8DF5-858ED70493DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F239587-2916-42C0-AFDC-015B0486BB73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F239587-2916-42C0-AFDC-015B0486BB73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F239587-2916-42C0-AFDC-015B0486BB73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F239587-2916-42C0-AFDC-015B0486BB73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FBC9EC2-2709-4296-8FDC-271CEE96A952}
+	EndGlobalSection
+EndGlobal
